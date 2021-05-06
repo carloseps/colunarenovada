@@ -111,7 +111,7 @@ main {
 
 .navbar .navlinks {
     display: none;
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 500;
     flex-basis: 100%;
     height: 100%;
@@ -145,10 +145,18 @@ main {
     }
 }
 
+@media (max-width: 575px) {
+    .navbar.active {
+        height: auto
+    }
+    .navbar.active .navlinks {
+        display: block
+    }
+}
+
 .inicio {
     align-items: center;
     background: #17f0ff;
-    background: linear-gradient(0deg, #27eaf8 0, #09b9c5 100%);
     color: #fff;
     display: flex;
     font-size: 1.125rem;
@@ -181,23 +189,24 @@ main {
 
 .container-inicio {
     color: #202020;
-    text-align: left;
+    text-align: center;
     margin-bottom: 35px;
-    margin-left: 14%;
+    margin-left: auto;
     margin-right: auto;
     max-width: 62rem;
     padding: 0 1rem;
-    width: 50%
+    width: 90%
 }
 
 .container-inicio h1 {
-    font-size: 45px
+    font-size: 35px
 }
 
 .container-inicio h2 {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
-    width: 65%
+    width: 100%;
+    padding-top: 25px;
 }
 
 .container-foto-mobile {
@@ -217,7 +226,18 @@ main {
 
 @media (min-width:992px) {
     .inicio {
-        background: linear-gradient(0deg, rgba(23, 240, 255, .25) 0, rgba(23, 240, 255, .2) 100%)
+        background: linear-gradient(0deg, rgba(23, 240, 255, .25) 0, rgba(23, 240, 255, .5) 100%)
+    }
+    .container-inicio {
+        margin-left: 14%;
+        text-align: left;
+        width: 50%
+    }
+    .container-inicio h1 {
+        font-size: 45px;
+    }
+    .container-inicio h2 {
+        width: 65%
     }
     .inicio .inicio-texto {
         text-align: left;
@@ -226,6 +246,12 @@ main {
     .inicio .foto-bg-inicio {
         display: block;
         position: absolute
+    }
+    .container-vantagens h2 {
+        font-size: 20px;
+    }
+    .vantagens .vantagens-topicos-texto {
+        width: 60%;
     }
     .vantagens .vantagens-bg {
         display: block!important;
@@ -275,22 +301,22 @@ main {
 }
 
 .container-vantagens h1 {
-    font-size: 35px
+    font-size: 25px
 }
 
 .container-vantagens h2 {
-    font-size: 28px;
+    font-size: 16px;
     font-weight: lighter
 }
 
 .vantagens .vantagens-topicos-texto {
-    width: 60%;
+    width: 80%;
     margin: 0 auto
 }
 
 .vantagens .vantagens-topicos-texto li {
-    text-align: left;
-    font-size: 18px;
+    text-align: center;
+    font-size: 17px;
     font-weight: 200;
     margin-top: 1rem;
     padding: 0 1rem
@@ -299,8 +325,7 @@ main {
 .comofunciona {
     padding-top: 2.2rem;
     align-items: center;
-    background: #00d4d4;
-    background: linear-gradient(0deg, #00d4d4 0, rgba(23, 240, 255, 1) 100%);
+    background: #17f0ff;
     color: #212121;
     min-height: fit-content;
     overflow: hidden;
@@ -309,6 +334,8 @@ main {
 }
 
 .comofunciona p {
+    width: 80%;
+    margin: 0 auto;
     font-size: 18px;
     font-weight: 400
 }
@@ -322,7 +349,7 @@ main {
     margin-right: auto;
     max-width: 62rem;
     padding: 0 1rem;
-    width: 50%
+    width: 90%
 }
 
 .container-comofunciona h1 {
@@ -348,9 +375,9 @@ main {
 
 .comofunciona .box-items {
     display: block;
-    padding: 10px;
+    padding: 25px;
     width: 90%;
-    height: 300px;
+    height: 220px;
     background: #fff;
     opacity: .75;
     box-shadow: rgba(33, 33, 33, 1);
@@ -358,17 +385,16 @@ main {
 }
 
 .comofunciona .box-items h1 {
-    margin-top: 35px;
+    margin-top: 0px;
     padding: 1px;
     font-weight: 700;
     font-size: 18px
 }
 
 .comofunciona-info {
-    padding-top: 2.2rem;
+    padding-top: 60px;
     align-items: center;
     background: #17f0ff;
-    background: linear-gradient(0deg, rgba(23, 240, 255, 1) 0, #00d4d4 100%);
     color: #212121;
     min-height: calc(100vh - 1rem);
     overflow: hidden;
@@ -379,12 +405,12 @@ main {
 .container-comofunciona-info {
     color: #212121;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     max-width: 62rem;
     padding: 0 1rem;
-    width: 70%
+    width: 90%
 }
 
 .container-comofunciona-info h1 {
@@ -426,9 +452,9 @@ main {
     background: #17f0ff;
     color: #212121;
     overflow: hidden;
-    padding: 4rem 0;
+    padding: 2rem 0;
     position: relative;
-    text-align: left
+    text-align: left;
 }
 
 .obter .obter-bg {
@@ -436,7 +462,7 @@ main {
     left: 0;
     position: absolute;
     top: 0;
-    width: 107%;
+    width: 125%;
     z-index: -1
 }
 
@@ -453,55 +479,63 @@ main {
 }
 
 .container-obter h1 {
-    font-size: 30px;
-    width: 60%
+    font-size: 25px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.container-obter h2 {
+.obter .obter-topicos-texto h2 {
     font-size: 18px;
-    width: 75%;
-    font-weight: 400
+    margin: 0 auto;
+    width: 70%;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .obter .obter-topicos-texto {
-    font-weight: 400;
+    font-weight: 300;
     list-style: none;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 30px
+    margin-bottom: 10px
 }
 
 .obter .obter-topicos-texto li {
-    width: 75%;
-    text-align: left;
+    width: 80%;
+    text-align: justify;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 1rem;
-    padding: 0 1rem
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .obter .botao-obter {
-    background-color: #fff;
+    background-color: #212121;
+    border: none;
+    color: #fff;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     display: block;
-    width: 70%;
+    width: 85%;
     height: 3.5rem;
-    font-size: 1.25rem;
+    font-size: 15px;
     font-weight: 400;
     margin: 0 auto;
     min-width: 10.25rem;
-    padding: .75rem .875rem;
+    padding: .85rem;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     text-transform: uppercase;
     transition: background-color .25s linear
 }
 
 .obter .botao-obter:hover {
-    background-color: #212121;
+    background-color: #fff;
+    color: #212121;
     border: none;
-    color: #fff
 }
 
 .faq {
@@ -510,7 +544,7 @@ main {
     color: #212121;
     min-height: calc(100vh - 1rem);
     overflow: hidden;
-    padding: 2rem 0;
+    padding: 1rem 0;
     position: relative;
     text-align: justify
 }
@@ -546,7 +580,7 @@ main {
 }
 
 .faq .faq-topicos-texto {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     padding-bottom: 40px
 }
@@ -586,7 +620,7 @@ main {
     }
     #sobre-gradient #sobre-foto-em-pe {
         display: block;
-        margin-left: 30%
+        margin-left: 20%
     }
 }
 
@@ -644,19 +678,57 @@ main {
 
 @media (min-width:992px) {
     .comofunciona .box-items {
+        height: 300px;
         width: 30%!important
     }
 }
 
-@media (min-width:576px) {
-    .obter .botao {
-        margin-left: .5rem;
-        margin-right: .5rem;
-        margin-top: 0!important
-    }
-}
-
 @media (min-width:768px) {
+    .faq .faq-topicos-texto {
+        width: 70%;
+    }
+    .container-obter h1 {
+        padding-top: 20px;
+        font-size: 30px;
+        text-align: left;
+        width: 100%;
+        margin: 0 auto
+    }
+    .obter .obter-topicos-texto h2 {
+        text-align: left;
+        font-size: 18px;
+        width: 100%;
+        font-weight: 700
+    }
+    .obter .obter-topicos-texto {
+        font-weight: 300;
+        list-style: none;
+        width: 60%;
+        margin-right: 0 auto;
+        margin-left: 12.5rem;
+        margin-bottom: 50px;
+        align-items: left;
+    }
+    .obter .obter-topicos-texto li {
+        text-align: left;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .obter .botao-obter {
+        width: 70%;
+        height: 3.5rem;
+        font-size: 20px;
+    }
+    .container-comofunciona {
+        width: 50%
+    }
+    .comofunciona .box-items h1 {
+        margin-top: 30px;
+    }
+    .container-comofunciona-info {
+        width: 70%
+    }
     .navbar .navbar-brand {
         align-items: center;
         display: none
