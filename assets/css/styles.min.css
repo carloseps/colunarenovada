@@ -156,7 +156,8 @@ main {
 
 .inicio {
     align-items: center;
-    background: #17f0ff;
+    background-image: url("https://i.pinimg.com/originals/d2/73/1d/d2731d380468aed0130a3a39b8de58dc.png");
+    background-repeat: no-repeat;
     color: #fff;
     display: flex;
     font-size: 1.125rem;
@@ -520,7 +521,6 @@ main {
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     display: block;
     width: 85%;
-    height: 3.5rem;
     font-size: 13px;
     font-weight: 400;
     margin: 0 auto;
@@ -690,7 +690,7 @@ main {
     .container-obter h1 {
         padding-top: 20px;
         font-size: 30px;
-        text-align: left;
+        text-align: center;
         width: 100%;
         margin: 0 auto
     }
