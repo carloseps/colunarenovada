@@ -258,6 +258,10 @@ main {
         display: block!important;
         position: absolute!important
     }
+    .oferta .oferta-bg {
+        display: block!important;
+        position: absolute!important
+    }
     .obter .obter-bg {
         display: block!important;
         position: absolute!important
@@ -538,6 +542,105 @@ main {
     border: none;
 }
 
+.oferta {
+    align-items: center;
+    background: #303030;
+    background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0, rgba(54, 54, 54, 1) 100%);
+    color: #fff;
+    min-height: calc(100vh - 1rem);
+    overflow: hidden;
+    padding-top: 4rem;
+    position: relative;
+    text-align: center
+}
+
+.oferta .botao-obter {
+    background-color: #17f0ff;
+    border: none;
+    color: #212121;
+    -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    display: block;
+    width: 85%;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 auto;
+    min-width: 10.25rem;
+    padding: .85rem;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    transition: background-color .25s linear
+}
+
+.oferta .botao-obter:hover {
+    background: rgb(0, 175, 175);
+    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    border: none;
+    transition: background-color .25s linear
+}
+
+.oferta .oferta-bg {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 120%;
+    z-index: -1
+}
+
+.container-oferta {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 62rem;
+    padding: 0 1rem;
+    width: 100%
+}
+
+.container-oferta h1 {
+    font-size: 25px
+}
+
+.container-oferta h2 {
+    font-size: 28px;
+    font-weight: 600
+}
+
+.container-oferta h3 {
+    margin: 0 auto;
+    width: 78%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container-oferta h4 {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.oferta .oferta-topicos-texto {
+    width: 80%;
+    margin: 0 auto
+}
+
+.oferta .oferta-topicos-texto li {
+    list-style: none;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 0 1rem
+}
+
+.oferta .oferta-topicos-texto li p {
+    padding-top: 40px
+}
+
 .faq {
     align-items: center;
     background: #f5f5f5;
@@ -664,6 +767,9 @@ main {
     .vantagens {
         background: linear-gradient(0deg, rgba(33, 33, 33, .85) 0, rgba(54, 54, 54, .9) 100%)
     }
+    .oferta {
+        background: linear-gradient(0deg, rgba(33, 33, 33, .5) 0, rgba(54, 54, 54, .25) 100%)
+    }
     .vantagens .vantagens-topicos-texto li {
         padding: 0
     }
@@ -716,6 +822,11 @@ main {
         font-weight: 400;
     }
     .obter .botao-obter {
+        width: 70%;
+        height: 3.5rem;
+        font-size: 20px;
+    }
+    .oferta .botao-obter {
         width: 70%;
         height: 3.5rem;
         font-size: 20px;
