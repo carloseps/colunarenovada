@@ -430,6 +430,26 @@ main {
     font-weight: 400
 }
 
+.container-video {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.container-video h1 {
+    padding: 1rem;
+    padding-top: 25px;
+}
+
+.atendimento-online {
+    display: block;
+    padding-right: 15%;
+    top: 0;
+    width: 130%;
+    z-index: -1;
+    margin: 0 auto;
+}
+
 .feedback {
     padding: 2rem;
     align-items: center;
@@ -764,6 +784,14 @@ main {
 }
 
 @media (min-width:992px) {
+    .container-video {
+        margin: 0 auto;
+        width: 50%;
+    }
+    .atendimento-online {
+        width: 80%;
+        padding-right: 0%;
+    }
     .vantagens {
         background: linear-gradient(0deg, rgba(33, 33, 33, .85) 0, rgba(54, 54, 54, .9) 100%)
     }
