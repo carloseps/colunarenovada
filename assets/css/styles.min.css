@@ -778,7 +778,8 @@ main {
     .sobre {
         text-align: left
     }
-    .sobre .sobre-topicos-texto li {
+    .sobre .sobre-topicos-texto div {
+        width: 75%;
         padding: 0
     }
 }
