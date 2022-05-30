@@ -326,7 +326,37 @@ main {
     margin-top: 1rem;
     padding: 0 1rem
 }
+.feedbackgoogles {
+    margin: 0 auto;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: 600;
+    position: relative;
+    text-align: center
+}
 
+.feedbackgoogles .grupo-containers-feedbackgoogle {
+    list-style: none!important;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto
+}
+
+.feedbackgoogles .container-feedbackgoogle {
+    width: 100%;
+    padding-bottom: 20px;
+    display: block!important;
+    margin: 0 auto;
+    text-align: center
+}
+
+.feedbackgoogles .container-feedbackgoogle img {
+    height: 100%;
+    width: 100%
+}
 .comofunciona {
     padding-top: 2.2rem;
     align-items: center;
@@ -744,6 +774,10 @@ main {
     #sobre-gradient #sobre-foto-em-pe {
         display: block;
         margin-left: 20%
+    }
+    .feedbackgoogles .container-feedbackgoogle {
+        width: 50%!important;
+        margin: 0 auto
     }
 }
 
