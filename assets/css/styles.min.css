@@ -623,6 +623,56 @@ main {
     transition: background-color .25s linear
 }
 
+.botao-obter-1 {
+    background-color: #fff;
+    border: none;
+    color: #212121;
+    -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    display: block;
+    width: 65%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    min-width: 10.25rem;
+    padding: .85rem;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    transition: background-color .25s linear
+}
+.botao-obter-1:hover {
+    background: rgb(185, 185, 185);
+    border: none;
+    transition: background-color .25s linear
+}
+
+.botao-obter-2 {
+    background-color: #212121;
+    border: none;
+    color: #fff;
+    -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    display: block;
+    width: 85%;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    min-width: 10.25rem;
+    padding: .85rem;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    transition: background-color .25s linear
+}
+.botao-obter-2:hover {
+    background: rgb(0, 175, 175);
+    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    color: #212121;
+    border: none;
+    transition: background-color .25s linear
+}
+
 .oferta .botao-obter:hover {
     background: rgb(0, 175, 175);
     background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
@@ -670,7 +720,7 @@ main {
 .container-oferta h4 {
     margin: 0 auto;
     width: 90%;
-    font-size: 28px;
+    font-size: 45px;
     font-weight: 600;
 }
 
