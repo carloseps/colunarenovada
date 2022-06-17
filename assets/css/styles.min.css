@@ -604,9 +604,9 @@ main {
     text-align: center
 }
 
-.oferta .botao-obter {
+.botao-obter {
     background-color: #17f0ff;
-    border: none;
+    border-radius: 30px;
     color: #212121;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
@@ -625,7 +625,7 @@ main {
 
 .botao-obter-1 {
     background-color: #fff;
-    border: none;
+    border-radius: 30px;
     color: #212121;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
@@ -649,7 +649,7 @@ main {
 
 .botao-obter-2 {
     background-color: #212121;
-    border: none;
+    border-radius: 30px;
     color: #fff;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
@@ -664,6 +664,8 @@ main {
     margin-top: 40px;
     text-transform: uppercase;
     transition: background-color .25s linear
+
+    
 }
 .botao-obter-2:hover {
     background: rgb(0, 175, 175);
