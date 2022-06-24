@@ -162,7 +162,6 @@ main {
     display: flex;
     font-size: 1.125rem;
     font-weight: 300;
-    min-height: calc(100vh - 3.5rem);
     overflow: hidden;
     padding: 4rem 0;
     position: relative;
@@ -277,7 +276,6 @@ main {
     background: #303030;
     background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0, rgba(54, 54, 54, 1) 100%);
     color: #fff;
-    min-height: calc(100vh - 1rem);
     overflow: hidden;
     padding: 4rem 0;
     position: relative;
@@ -362,7 +360,6 @@ main {
     align-items: center;
     background: #17f0ff;
     color: #212121;
-    min-height: fit-content;
     overflow: hidden;
     position: relative;
     text-align: center
@@ -431,7 +428,6 @@ main {
     align-items: center;
     background: #17f0ff;
     color: #212121;
-    min-height: calc(100vh - 1rem);
     overflow: hidden;
     position: relative;
     text-align: center
@@ -543,7 +539,7 @@ main {
 .obter .obter-topicos-texto h2 {
     font-size: 18px;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     font-weight: 600;
     text-align: center;
     padding-bottom: 10px;
@@ -568,9 +564,10 @@ main {
 }
 
 .obter .botao-obter {
-    background-color: #212121;
+    background: rgb(0, 175, 175);
+    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     border: none;
-    color: #fff;
+    color: #212121;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
     display: block;
@@ -583,11 +580,12 @@ main {
     text-align: center;
     margin-top: 20px;
     text-transform: uppercase;
-    transition: background-color .25s linear
+    transition: background-color .5s linear
 }
 
 .obter .botao-obter:hover {
-    background-color: #fff;
+    background: #1ee9e9;
+    background: linear-gradient(0deg, rgba(18, 94, 94, 0.7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     color: #212121;
     border: none;
 }
@@ -597,7 +595,6 @@ main {
     background: #303030;
     background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0, rgba(54, 54, 54, 1) 100%);
     color: #fff;
-    min-height: calc(100vh - 1rem);
     overflow: hidden;
     padding-top: 4rem;
     position: relative;
@@ -668,8 +665,7 @@ main {
     
 }
 .botao-obter-2:hover {
-    background: rgb(0, 175, 175);
-    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    background: #fff;
     color: #212121;
     border: none;
     transition: background-color .25s linear
@@ -890,9 +886,9 @@ main {
     }
     .obter {
         background: #fff;
-        background: linear-gradient(0deg, rgba(23, 240, 255, .8) 0, rgb(0, 212, 212, .5) 100%)
     }
     .obter .obter-topicos-texto li {
+        
         padding: 0
     }
 }
@@ -910,14 +906,14 @@ main {
     }
     .container-obter h1 {
         padding-top: 20px;
-        font-size: 30px;
+        font-size: 45px;
         text-align: center;
-        width: 100%;
+        width: 70%;
         margin: 0 auto
     }
     .obter .obter-topicos-texto h2 {
         text-align: left;
-        font-size: 18px;
+        font-size: 25px;
         width: 100%;
         font-weight: 700
     }
@@ -933,7 +929,7 @@ main {
     .obter .obter-topicos-texto li {
         text-align: left;
         width: 100%;
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 400;
     }
     .obter .botao-obter {
