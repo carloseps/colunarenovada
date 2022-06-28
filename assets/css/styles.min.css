@@ -705,7 +705,8 @@ main {
 
 .container-oferta h2 {
     font-size: 28px;
-    font-weight: 600
+    font-weight: 600;
+    text-decoration: line-through;
 }
 
 .container-oferta h3 {
@@ -732,7 +733,7 @@ main {
     text-align: center;
     font-size: 21px;
     font-weight: 400;
-    padding: 0 1rem
+    padding: 0
 }
 
 .oferta .oferta-topicos-texto li p {
