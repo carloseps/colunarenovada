@@ -607,6 +607,7 @@ main {
     background: linear-gradient(0deg, rgba(18, 94, 94, 0.7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     color: #212121;
     border: none;
+    transition: background-color .5s linear
 }
 
 .oferta {
@@ -655,12 +656,12 @@ main {
     text-align: center;
     margin-top: 40px;
     text-transform: uppercase;
-    transition: background-color .25s linear
+    transition: background-color .5s linear
 }
 .botao-obter-1:hover {
     background: rgb(185, 185, 185);
     border: none;
-    transition: background-color .25s linear
+    transition: background-color .5s linear
 }
 
 .botao-obter-2 {
@@ -687,14 +688,14 @@ main {
     background: #fff;
     color: #212121;
     border: none;
-    transition: background-color .25s linear
+    transition: background-color .5s linear
 }
 
 .oferta .botao-obter:hover {
     background: rgb(0, 175, 175);
     background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     border: none;
-    transition: background-color .25s linear
+    transition: background-color .5s linear
 }
 
 .oferta .oferta-bg {
@@ -768,6 +769,51 @@ main {
     padding: 1rem 0;
     position: relative;
     text-align: justify
+}
+
+.faq .botao-obter {
+    background-color: #212121;
+    border-radius: 30px;
+    color: #fff;
+    -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
+    display: block;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    min-width: 10.25rem;
+    padding: .85rem;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    transition: background-color .5s linear
+}
+
+.faq .botao-obter:hover {
+    background: #1ee9e9;
+    color: #212121;
+    border: none;
+    transition: background-color .5s linear
+}
+
+.container-e-books {
+    display: block;
+    color: #202020;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 62rem;
+    padding: 0 1rem;
+    width: 100%
+}
+
+.box-ebook img{
+    height: 300px;
+}
+
+.box-ebook{
+    margin: 0 auto;
+    width: 90%;
 }
 
 .faq .faq-bg {
@@ -986,6 +1032,12 @@ main {
     }
     .comofunciona .box-items {
         width: 60%
+    }
+    .container-e-books{
+        display: flex;
+    }
+    .box-ebook{
+        width: 50%;
     }
 }
 
