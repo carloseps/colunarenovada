@@ -621,6 +621,45 @@ main {
     text-align: center
 }
 
+.oferta-limitada{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 60 px;
+    background: whitesmoke;
+    color: #ff1e00;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.oferta-limitada .contagem h5{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.oferta .oferta-limitada h4{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.oferta-limitada .dias, .oferta-limitada .horas, .oferta-limitada .minutos, .oferta-limitada .segundos{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+
+.oferta .oferta-limitada .contagem{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
 .botao-obter {
     background-color: #17f0ff;
     border-radius: 30px;
@@ -1038,6 +1077,17 @@ main {
     }
     .box-ebook{
         width: 50%;
+    }
+    .oferta-limitada .dias, .oferta-limitada .horas, .oferta-limitada .minutos, .oferta-limitada .segundos{
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .oferta-limitada{
+        width: 75%;
+    }
+    .oferta .oferta-limitada h4{
+        width: 100%;
+        font-size: 35px;
     }
 }
 
