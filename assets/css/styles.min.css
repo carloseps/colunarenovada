@@ -105,7 +105,7 @@ main {
 
 @media (min-width:576px) {
     .foto-em-pe-mobile {
-        display: none!important
+        display: none !important
     }
 }
 
@@ -139,24 +139,16 @@ main {
         padding: 0 .75rem;
         transition: background-color .2s linear, color .2s linear
     }
+
     .navbar .navlinks li a:hover {
         background-color: #303030;
         color: #fff
     }
 }
 
-@media (max-width: 575px) {
-    .navbar.active {
-        height: auto
-    }
-    .navbar.active .navlinks {
-        display: block
-    }
-}
-
 .inicio {
     align-items: center;
-    background-image: url("https://i.pinimg.com/originals/d2/73/1d/d2731d380468aed0130a3a39b8de58dc.png");
+    background-image: url(https://i.pinimg.com/originals/d2/73/1d/d2731d380468aed0130a3a39b8de58dc.png);
     background-repeat: no-repeat;
     color: #fff;
     display: flex;
@@ -178,7 +170,7 @@ main {
     margin: 1rem 0
 }
 
-.video-inicio{
+.video-inicio {
     height: 180px
 }
 
@@ -210,7 +202,7 @@ main {
     font-size: 18px;
     font-weight: 400;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 25px
 }
 
 .container-foto-mobile {
@@ -218,19 +210,19 @@ main {
     bottom: 100% auto
 }
 
-.iframe-container{
+.iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
+    padding-bottom: 56.25%;
+    height: 0
 }
 
-.iframe-container iframe{
+.iframe-container iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%
 }
 
 .foto-em-pe-mobile {
@@ -247,43 +239,54 @@ main {
     .inicio {
         background: linear-gradient(0deg, rgba(23, 240, 255, .25) 0, rgba(23, 240, 255, .5) 100%)
     }
+
     .container-inicio {
         margin-left: 14%;
         text-align: left;
         width: 50%
     }
+
     .container-inicio h1 {
-        font-size: 45px;
+        font-size: 45px
     }
+
     .container-inicio h2 {
         width: 65%
     }
+
     .inicio .inicio-texto {
         text-align: left;
         width: 75%
     }
+
     .inicio .foto-bg-inicio {
         display: block;
         position: absolute
     }
+
     .container-vantagens h2 {
-        font-size: 20px;
+        font-size: 20px
     }
+
     .vantagens .vantagens-topicos-texto {
-        width: 60%;
+        width: 60%
     }
+
     .vantagens .vantagens-bg {
-        display: block!important;
-        position: absolute!important
+        display: block !important;
+        position: absolute !important
     }
+
     .oferta .oferta-bg {
-        display: block!important;
-        position: absolute!important
+        display: block !important;
+        position: absolute !important
     }
+
     .obter .obter-bg {
-        display: block!important;
-        position: absolute!important
+        display: block !important;
+        position: absolute !important
     }
+
     .navbar .navbar-brand {
         align-items: center;
         display: none
@@ -343,6 +346,7 @@ main {
     margin-top: 1rem;
     padding: 0 1rem
 }
+
 .feedbackgoogles {
     margin: 0 auto;
     display: flex;
@@ -353,7 +357,7 @@ main {
 }
 
 .feedbackgoogles .grupo-containers-feedbackgoogle {
-    list-style: none!important;
+    list-style: none !important;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -365,7 +369,7 @@ main {
 .feedbackgoogles .container-feedbackgoogle {
     width: 100%;
     padding-bottom: 20px;
-    display: block!important;
+    display: block !important;
     margin: 0 auto;
     text-align: center
 }
@@ -374,6 +378,7 @@ main {
     height: 100%;
     width: 100%
 }
+
 .comofunciona {
     padding-top: 2.2rem;
     align-items: center;
@@ -436,7 +441,7 @@ main {
 }
 
 .comofunciona .box-items h1 {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 1px;
     font-weight: 700;
     font-size: 18px
@@ -478,12 +483,12 @@ main {
 .container-video {
     margin: 0 auto;
     width: 100%;
-    text-align: center;
+    text-align: center
 }
 
 .container-video h1 {
     padding: 1rem;
-    padding-top: 25px;
+    padding-top: 25px
 }
 
 .atendimento-online {
@@ -492,7 +497,7 @@ main {
     top: 0;
     width: 130%;
     z-index: -1;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .feedback {
@@ -514,7 +519,7 @@ main {
 
 .img-relato {
     padding-bottom: 20px;
-    height: 480px!important
+    height: 480px !important
 }
 
 .obter {
@@ -524,7 +529,7 @@ main {
     overflow: hidden;
     padding: 2rem 0;
     position: relative;
-    text-align: left;
+    text-align: left
 }
 
 .obter .obter-bg {
@@ -552,7 +557,7 @@ main {
     font-size: 25px;
     width: 80%;
     margin: 0 auto;
-    text-align: center;
+    text-align: center
 }
 
 .obter .obter-topicos-texto h2 {
@@ -561,7 +566,7 @@ main {
     width: 100%;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 .obter .obter-topicos-texto {
@@ -579,12 +584,12 @@ main {
     font-weight: 400;
     margin: 0 auto;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1rem
 }
 
 .obter .botao-obter {
-    background: rgb(0, 175, 175);
-    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    background: #00afaf;
+    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     border: none;
     color: #212121;
     -webkit-box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .5);
@@ -604,7 +609,7 @@ main {
 
 .obter .botao-obter:hover {
     background: #1ee9e9;
-    background: linear-gradient(0deg, rgba(18, 94, 94, 0.7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    background: linear-gradient(0deg, rgba(18, 94, 94, .7) 0, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     color: #212121;
     border: none;
     transition: background-color .5s linear
@@ -621,43 +626,45 @@ main {
     text-align: center
 }
 
-.oferta-limitada{
+.oferta-limitada {
     margin: 0 auto;
     width: 100%;
     margin-bottom: 60 px;
-    background: whitesmoke;
+    background: #f5f5f5;
     color: #ff1e00;
     padding: 20px;
     display: flex;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center
 }
 
-.oferta-limitada .contagem h5{
+.oferta-limitada .contagem h5 {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px
 }
 
-.oferta .oferta-limitada h4{
+.oferta .oferta-limitada h4 {
     width: 100%;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700
 }
 
-.oferta-limitada .dias, .oferta-limitada .horas, .oferta-limitada .minutos, .oferta-limitada .segundos{
+.oferta-limitada .dias,
+.oferta-limitada .horas,
+.oferta-limitada .minutos,
+.oferta-limitada .segundos {
     text-align: center;
     font-weight: 600;
     font-size: 40px;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
-
-.oferta .oferta-limitada .contagem{
+.oferta .oferta-limitada .contagem {
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 .botao-obter {
@@ -697,8 +704,9 @@ main {
     text-transform: uppercase;
     transition: background-color .5s linear
 }
+
 .botao-obter-1:hover {
-    background: rgb(185, 185, 185);
+    background: #b9b9b9;
     border: none;
     transition: background-color .5s linear
 }
@@ -720,9 +728,8 @@ main {
     margin-top: 40px;
     text-transform: uppercase;
     transition: background-color .25s linear
-
-    
 }
+
 .botao-obter-2:hover {
     background: #fff;
     color: #212121;
@@ -731,8 +738,8 @@ main {
 }
 
 .oferta .botao-obter:hover {
-    background: rgb(0, 175, 175);
-    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0%, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
+    background: #00afaf;
+    background: linear-gradient(0deg, rgba(0, 175, 175, .7) 0, rgba(23, 240, 255, 1) 50%, rgba(0, 175, 175, .7) 100%);
     border: none;
     transition: background-color .5s linear
 }
@@ -765,21 +772,21 @@ main {
 .container-oferta h2 {
     font-size: 28px;
     font-weight: 600;
-    text-decoration: line-through;
+    text-decoration: line-through
 }
 
 .container-oferta h3 {
     margin: 0 auto;
     width: 78%;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .container-oferta h4 {
     margin: 0 auto;
     width: 90%;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .oferta .oferta-topicos-texto {
@@ -846,13 +853,13 @@ main {
     width: 100%
 }
 
-.box-ebook img{
-    height: 300px;
+.box-ebook img {
+    height: 300px
 }
 
-.box-ebook{
+.box-ebook {
     margin: 0 auto;
-    width: 90%;
+    width: 90%
 }
 
 .faq .faq-bg {
@@ -921,15 +928,18 @@ main {
         align-items: flex-end;
         display: flex
     }
+
     .sobre {
         margin-left: 10%
     }
+
     #sobre-gradient #sobre-foto-em-pe {
         display: block;
         margin-left: 20%
     }
+
     .feedbackgoogles .container-feedbackgoogle {
-        width: 50%!important;
+        width: 50% !important;
         margin: 0 auto
     }
 }
@@ -965,6 +975,7 @@ main {
     .sobre {
         text-align: left
     }
+
     .sobre .sobre-topicos-texto div {
         width: 75%;
         padding: 0
@@ -972,31 +983,37 @@ main {
 }
 
 @media (min-width:992px) {
-    .video-inicio{
-        height: 500px;
+    .video-inicio {
+        height: 500px
     }
+
     .container-video {
         margin: 0 auto;
-        width: 50%;
+        width: 50%
     }
+
     .atendimento-online {
         width: 80%;
-        padding-right: 0%;
+        padding-right: 0
     }
+
     .vantagens {
         background: linear-gradient(0deg, rgba(33, 33, 33, .85) 0, rgba(54, 54, 54, .9) 100%)
     }
+
     .oferta {
         background: linear-gradient(0deg, rgba(33, 33, 33, .5) 0, rgba(54, 54, 54, .25) 100%)
     }
+
     .vantagens .vantagens-topicos-texto li {
         padding: 0
     }
+
     .obter {
-        background: #fff;
+        background: #fff
     }
+
     .obter .obter-topicos-texto li {
-        
         padding: 0
     }
 }
@@ -1004,14 +1021,15 @@ main {
 @media (min-width:992px) {
     .comofunciona .box-items {
         height: 300px;
-        width: 30%!important
+        width: 30% !important
     }
 }
 
 @media (min-width:768px) {
     .faq .faq-topicos-texto {
-        width: 70%;
+        width: 70%
     }
+
     .container-obter h1 {
         padding-top: 20px;
         font-size: 45px;
@@ -1019,12 +1037,14 @@ main {
         width: 70%;
         margin: 0 auto
     }
+
     .obter .obter-topicos-texto h2 {
         text-align: left;
         font-size: 25px;
         width: 100%;
         font-weight: 700
     }
+
     .obter .obter-topicos-texto {
         font-weight: 300;
         list-style: none;
@@ -1032,62 +1052,80 @@ main {
         margin-right: 0 auto;
         margin-left: 12.5rem;
         margin-bottom: 50px;
-        align-items: left;
+        align-items: left
     }
+
     .obter .obter-topicos-texto li {
         text-align: left;
         width: 100%;
         font-size: 20px;
-        font-weight: 400;
+        font-weight: 400
     }
+
     .obter .botao-obter {
         width: 70%;
         height: 3.5rem;
-        font-size: 20px;
+        font-size: 20px
     }
+
     .oferta .botao-obter {
         width: 70%;
         height: 3.5rem;
-        font-size: 20px;
+        font-size: 20px
     }
+
     .container-comofunciona {
         width: 50%
     }
+
     .comofunciona .box-items h1 {
-        margin-top: 30px;
+        margin-top: 30px
     }
+
     .container-comofunciona-info {
         width: 70%
     }
+
     .navbar .navbar-brand {
         align-items: center;
         display: none
     }
+
     .navbar .container {
         justify-content: space-evenly
     }
+
     .obter .botao {
         font-size: 1rem
     }
+
     .comofunciona .box-items {
         width: 60%
     }
-    .container-e-books{
-        display: flex;
+
+    .container-e-books {
+        display: flex
     }
-    .box-ebook{
-        width: 50%;
+
+    .box-ebook {
+        width: 50%
     }
-    .oferta-limitada .dias, .oferta-limitada .horas, .oferta-limitada .minutos, .oferta-limitada .segundos{
+
+    .oferta-limitada .dias,
+    .oferta-limitada .horas,
+    .oferta-limitada .minutos,
+    .oferta-limitada .segundos {
         font-weight: 600;
-        font-size: 50px;
+        font-size: 50px
     }
-    .oferta-limitada{
-        width: 75%;
+
+    .oferta-limitada {
+        width: 75%
     }
-    .oferta .oferta-limitada h4{
+
+    .oferta .oferta-limitada h4 {
         width: 100%;
-        font-size: 35px;
+        font-size: 35px
     }
 }
 
@@ -1136,16 +1174,19 @@ main {
 
 @media (min-width:768px) {
     .navbar .navlinks {
-        display: flex!important;
+        display: flex !important;
         flex-basis: auto
     }
+
     .menu {
-        display: none!important
+        display: none !important
     }
+
     .footer .footer-redes-sociais li a {
         height: 6.25rem;
         width: 6.25rem
     }
+
     .footer .footer-redes-sociais li a svg {
         height: 2.5rem;
         width: 2.5rem
